@@ -11,7 +11,7 @@ program
 program.on('--help', function(){
   console.log('');
   console.log('Examples:');
-  console.log('  $ cookies2json -f cookies.txt');
+  console.log('  $ cookie2json -f cookies.txt');
 });
 
 program.parse(process.argv);

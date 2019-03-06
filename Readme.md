@@ -1,4 +1,4 @@
-## cookies2json
+## cookie2json
 convert cookies.txt to json 
 
 ## Install
