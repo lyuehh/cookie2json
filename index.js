@@ -3,10 +3,10 @@ const fs = require('fs');
 const program = require('commander');
 
 program
-  .version('1.0.0')
+  .version('3.0.0')
   .usage('-f <file>')
   .option('-f, --file [file]', "the cookies file")
-  .version('1.0.0', '-v, --version')
+  .version('3.0.0', '-v, --version')
 
 program.on('--help', function(){
   console.log('');
@@ -25,7 +25,6 @@ const file = fs.readFileSync(program.file, {encoding: 'utf-8'});
 
 function run(str) {
   var arrayOfLines = str.split("\n"); 
-  console.log(arrayOfLines);
   var i = 0;
   var arrObjects = [];
   for (i=0; i<arrayOfLines.length; i++){
